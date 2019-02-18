@@ -1,0 +1,8 @@
+#注入是根据bean的 set名字去注入的
+#比如Person类中 isBoss属性的set方法为 setBoss所以yml注入的名称为boss
+teacher:
+  lastName: zhangsan
+  age: 24
+  maps: {k1: v1,k2: 15}
+  lists: [1,2,3,4]
+  boss1: true
